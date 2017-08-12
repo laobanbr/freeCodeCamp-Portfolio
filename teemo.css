@@ -1,0 +1,108 @@
+/* teemo.css */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    padding-top: 40px;
+
+}
+
+h6 {
+    text-transform: capitalize;
+}
+
+li .active {
+    font-weight: bold;
+
+}
+/* navbar */
+
+.navLogo {
+    height: 25px
+}
+
+/* cover */
+#cover {
+    height: 100%;
+    background: #222 url(https://vignette3.wikia.nocookie.net/leagueoflegends/images/3/3b/Teemo_OriginalSkin.jpg/revision/latest?cb=20170615230642) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 10px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+
+#coverContainer {
+    background: rgba(0,0,0,0.5);
+    padding: 2rem;
+}
+
+.section-contents {
+    padding: 8rem 0;
+}
+
+.even-section {
+    background-color: #f0f0f0;
+}
+
+.odd-section {
+    background-color: #262f36;
+    color: white;
+    text-align: center;
+}
+/* skins */
+.extra-padding {
+    padding-top: 2rem;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  background-color: #262f36;
+
+}
+
+.card-text {
+    color: white;
+}
+.card > img {
+  margin-bottom: .75rem;
+  max-width: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+
+}
+
+/* footer */
+#teemo-footer{
+    background: #f0f0f0;
+    padding: 5rem 0;
+    font-size: 0.8rem;
+}
+
+#teemo-footer h6 {
+    color: #718fa9;
+}
+
+#teemo-footer a {
+    color: black;
+}
+
+
+@media screen and ( min-width: 991px ) {
+    .feature-content .row {
+        display: flex;
+        align-items: center;
+    }
+}
